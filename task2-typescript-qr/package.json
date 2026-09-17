@@ -1,0 +1,10 @@
+{
+  "name": "typescript-qr-generator",
+  "version": "1.0.0",
+  "description": "CLI QR-code generator written in TypeScript",
+  "main": "dist/index.js",
+  "bin": { "qrgen": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "dependencies": { "qrcode": "^1.5.4" },
+  "devDependencies": { "@types/node": "^20.0.0", "@types/qrcode": "^1.5.5", "typescript": "^5.3.0" }
+}
